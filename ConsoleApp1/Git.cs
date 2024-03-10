@@ -11,8 +11,8 @@ public class Git {
 
     public static int Average(int[] nums) {
         var sum = 0;
-        for (int i = 0; i < nums.Length; i++) {
-            sum += nums[i];
+        for (int j = 0; j < nums.Length; j++) {
+            sum += nums[j];
         }
         return sum / nums.Length;
     }
