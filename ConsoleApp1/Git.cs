@@ -16,4 +16,12 @@ public class Git {
         }
         return sum / nums.Length;
     }
+
+    public static int Max(int[] nums) {
+        var max = nums[0];
+        for (int i = 0; i < nums.Length; i++) {
+            max = nums[i] > max ? nums[i] : max;
+        }
+        return max;
+    }
 }
